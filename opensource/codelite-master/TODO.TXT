@@ -1,0 +1,2 @@
+- Allow multiple file open in open-resource dialog
+- Allow open <file>:<line> in open-resource dialog

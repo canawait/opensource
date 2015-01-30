@@ -1,0 +1,17 @@
+---- inter Matches (19 in 3 files) ----
+Memcached.c:    settings.inter = NULL;
+Memcached.c:    APPEND_STAT("inter", "%s", settings.inter ? settings.inter : "NULL");
+Memcached.c:    if (settings.inter == NULL) {
+Memcached.c:        return server_socket(settings.inter, port, transport, portnumber_file);
+Memcached.c:        char *list = strdup(settings.inter);
+Memcached.c:            if (settings.inter != NULL) {
+Memcached.c:                size_t len = strlen(settings.inter) + strlen(optarg) + 2;
+Memcached.c:                snprintf(p, len, "%s,%s", settings.inter, optarg);
+Memcached.c:                free(settings.inter);
+Memcached.c:                settings.inter = p;
+Memcached.c:                settings.inter= strdup(optarg);
+Memcached.c:    if (settings.inter != NULL && strchr(settings.inter, ',')) {
+Memcached.c:    if (settings.inter)
+Memcached.c:      free(settings.inter);
+Memcached.h:    char *inter;
+Protocol.txt (doc):| inter             | string   | Listen interface.                            |

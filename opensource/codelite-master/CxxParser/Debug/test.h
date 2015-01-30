@@ -1,0 +1,1 @@
+void foo(int i, char* b) const final;

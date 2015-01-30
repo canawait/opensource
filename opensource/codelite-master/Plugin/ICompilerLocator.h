@@ -1,0 +1,73 @@
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//
+// copyright            : (C) 2014 The CodeLite Team
+// file name            : ICompilerLocator.h
+//
+// -------------------------------------------------------------------------
+// A
+//              _____           _      _     _ _
+//             /  __ \         | |    | |   (_) |
+//             | /  \/ ___   __| | ___| |    _| |_ ___
+//             | |    / _ \ / _  |/ _ \ |   | | __/ _ )
+//             | \__/\ (_) | (_| |  __/ |___| | ||  __/
+//              \____/\___/ \__,_|\___\_____/_|\__\___|
+//
+//                                                  F i l e
+//
+//    This program is free software; you can redistribute it and/or modify
+//    it under the terms of the GNU General Public License as published by
+//    the Free Software Foundation; either version 2 of the License, or
+//    (at your option) any later version.
+//
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+
+#ifndef ICOMPILERLOCATOR_H
+#define ICOMPILERLOCATOR_H
+
+#include <compiler.h>
+#include <wx/sharedptr.h>
+#include <vector>
+#include "codelite_exports.h"
+#include "compiler.h"
+
+#define COMPILER_FAMILY_CLANG  "LLVM/Clang"
+#define COMPILER_FAMILY_MINGW  "MinGW"
+#define COMPILER_FAMILY_GCC    "GCC"
+#define COMPILER_FAMILY_VC     "Visual C++"
+#define COMPILER_FAMILY_CYGWIN "Cygwin"
+
+class WXDLLIMPEXP_SDK ICompilerLocator
+{
+public:
+    typedef wxSharedPtr<ICompilerLocator>        Ptr_t;
+    typedef std::vector<ICompilerLocator::Ptr_t> Vect_t;
+    typedef std::vector<CompilerPtr>             CompilerVec_t;
+    
+protected:
+    ICompilerLocator::CompilerVec_t m_compilers;
+
+public:
+    ICompilerLocator();
+    virtual ~ICompilerLocator();
+    
+    /**
+     * @brief locate the compiler
+     */
+    virtual bool Locate() = 0;
+    
+    /**
+     * @brief locate a compiler in a directory
+     */
+    virtual CompilerPtr Locate(const wxString &folder) = 0;
+    
+    /**
+     * @brief return the compiler
+     */
+    const ICompilerLocator::CompilerVec_t& GetCompilers() const {
+        return m_compilers;
+    }
+};
+
+#endif // ICOMPILERLOCATOR_H

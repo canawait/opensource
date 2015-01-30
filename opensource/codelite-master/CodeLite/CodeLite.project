@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="libCodeLite">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00070001N0012DebugUnicode0000000000000001N0014ReleaseUnicode0000000000000001N0015WinDebugUnicode0000000000000001N0011WinDebug_290000000000000001N0017WinReleaseUnicode0000000000000001N0013WinRelease_290000000000000001N0015Win_x64_Release000000000000]]>
+    </Plugin>
+    <Plugin Name="CMakePlugin">
+      <![CDATA[[{
+  "name": "WinDebugUnicode",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }, {
+  "name": "WinReleaseUnicode",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }, {
+  "name": "Win_x64_Release",
+  "enabled": false,
+  "buildDirectory": "build",
+  "sourceDirectory": "$(ProjectPath)",
+  "generator": "",
+  "buildType": "",
+  "arguments": [],
+  "parentProject": ""
+ }]]]>
+    </Plugin>
+  </Plugins>
+  <VirtualDirectory Name="Source Files">
+    <File Name="worker_thread.cpp"/>
+    <File Name="tokenizer.cpp"/>
+    <File Name="tag_tree.cpp"/>
+    <File Name="symbol_tree.cpp"/>
+    <File Name="readtags.cpp"/>
+    <File Name="progress_dialog.cpp"/>
+    <File Name="procutils.cpp"/>
+    <File Name="parse_thread.cpp"/>
+    <File Name="lex.yy.cpp"/>
+    <File Name="language.cpp"/>
+    <File Name="fileutils.cpp"/>
+    <File Name="dirtraverser.cpp"/>
+    <File Name="ctags_manager.cpp"/>
+    <File Name="cpp_scanner.cpp"/>
+    <File Name="cl_process.cpp"/>
+    <File Name="scope_parser.cpp"/>
+    <File Name="cpp_lexer.cpp"/>
+    <File Name="cpp_comment_creator.cpp"/>
+    <File Name="tags_options_data.cpp"/>
+    <File Name="setters_getters_data.cpp"/>
+    <File Name="archive.cpp"/>
+    <File Name="winprocess.cpp"/>
+    <File Name="cl_calltip.cpp"/>
+    <File Name="performance.cpp"/>
+    <File Name="fileextmanager.cpp"/>
+    <File Name="parsedtoken.h"/>
+    <File Name="parsedtoken.cpp"/>
+    <File Name="file_logger.h"/>
+    <File Name="file_logger.cpp"/>
+    <File Name="compiler_command_line_parser.cpp"/>
+    <File Name="compiler_command_line_parser.h"/>
+    <File Name="wx_ordered_map.h"/>
+    <File Name="cl_command_event.h"/>
+    <File Name="cl_command_event.cpp"/>
+    <File Name="event_notifier.cpp"/>
+    <File Name="event_notifier.h"/>
+    <File Name="xor_string.h"/>
+    <File Name="xor_string.cpp"/>
+    <File Name="clcommandlineparser.h"/>
+    <File Name="clcommandlineparser.cpp"/>
+    <File Name="clFileSystemEvent.h"/>
+    <File Name="clFileSystemEvent.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Header Files">
+    <File Name="y.tab.h"/>
+    <File Name="cl_process.h"/>
+    <File Name="cpp_scanner.h"/>
+    <File Name="ctags_manager.h"/>
+    <File Name="dirsaver.h"/>
+    <File Name="dirtraverser.h"/>
+    <File Name="fileutils.h"/>
+    <File Name="FlexLexer.h"/>
+    <File Name="language.h"/>
+    <File Name="parse_thread.h"/>
+    <File Name="precompiled_header.h"/>
+    <File Name="procutils.h"/>
+    <File Name="progress_dialog.h"/>
+    <File Name="readtags.h"/>
+    <File Name="singleton.h"/>
+    <File Name="smart_ptr.h"/>
+    <File Name="symbol_tree.h"/>
+    <File Name="tag_tree.h"/>
+    <File Name="tokenizer.h"/>
+    <File Name="tree.h"/>
+    <File Name="tree_node.h"/>
+    <File Name="worker_thread.h"/>
+    <File Name="cpp_lexer.h"/>
+    <File Name="comment_creator.h"/>
+    <File Name="cpp_comment_creator.h"/>
+    <File Name="archive.h"/>
+    <File Name="serialized_object.h"/>
+    <File Name="tags_options_data.h"/>
+    <File Name="setters_getters_data.h"/>
+    <File Name="extdbdata.h"/>
+    <File Name="cl_calltip.h"/>
+    <File Name="performance.h"/>
+    <File Name="fileextmanager.h"/>
+    <File Name="winprocess.h"/>
+    <File Name="code_completion_api.h"/>
+    <File Name="wx_xml_compatibility.h"/>
+    <File Name="codelite_exports.h"/>
+    <File Name="cl_exception.h"/>
+    <File Name="browse_record.h"/>
+    <File Name="cl_defs.h"/>
+    <File Name="StdToWX.h"/>
+    <File Name="StdToWX.cpp"/>
+    <File Name="codelite_events.h"/>
+    <File Name="codelite_events.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="GeneratedFiles">
+    <File Name="expression_result.h"/>
+    <File Name="function.h"/>
+    <File Name="variable.h"/>
+    <File Name="cpp_expr_lexer.cpp"/>
+    <File Name="cpp_expr_parser.cpp"/>
+    <File Name="cpp_func_parser.cpp"/>
+    <File Name="expression_result.cpp"/>
+    <File Name="function.cpp"/>
+    <File Name="var_parser.cpp"/>
+    <File Name="variable.cpp"/>
+    <File Name="cl_typedef.h"/>
+    <File Name="typedef_parser.cpp"/>
+    <File Name="scope_optimizer.h"/>
+    <File Name="scope_optimizer.cpp"/>
+    <File Name="comment_parser.h"/>
+    <File Name="comment_parser.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="database">
+    <File Name="comment.h"/>
+    <File Name="entry.h"/>
+    <File Name="entry.cpp"/>
+    <File Name="comment.cpp"/>
+    <File Name="fileentry.cpp"/>
+    <File Name="fileentry.h"/>
+    <File Name="istorage.h"/>
+    <File Name="tags_storage_sqlite3.h"/>
+    <File Name="tags_storage_sqlite3.cpp"/>
+  </VirtualDirectory>
+  <Dependencies/>
+  <Dependencies/>
+  <VirtualDirectory Name="codelite_indexer_API">
+    <File Name="../sdk/codelite_indexer/network/np_connections_server.h"/>
+    <File Name="../sdk/codelite_indexer/network/cl_indexer_reply.cpp"/>
+    <File Name="../sdk/codelite_indexer/network/cl_indexer_reply.h"/>
+    <File Name="../sdk/codelite_indexer/network/cl_indexer_request.cpp"/>
+    <File Name="../sdk/codelite_indexer/network/cl_indexer_request.h"/>
+    <File Name="../sdk/codelite_indexer/network/clindexerprotocol.cpp"/>
+    <File Name="../sdk/codelite_indexer/network/clindexerprotocol.h"/>
+    <File Name="../sdk/codelite_indexer/network/named_pipe.cpp"/>
+    <File Name="../sdk/codelite_indexer/network/named_pipe.h"/>
+    <File Name="../sdk/codelite_indexer/network/named_pipe_client.cpp"/>
+    <File Name="../sdk/codelite_indexer/network/named_pipe_client.h"/>
+    <File Name="../sdk/codelite_indexer/network/named_pipe_server.cpp"/>
+    <File Name="../sdk/codelite_indexer/network/named_pipe_server.h"/>
+    <File Name="../sdk/codelite_indexer/network/np_connections_server.cpp"/>
+    <File Name="../sdk/codelite_indexer/network/cl_indexer_macros.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="file_crawler">
+    <File Name="crawler_lexer.cpp"/>
+    <File Name="fc_fileopener.cpp"/>
+    <File Name="fc_fileopener.h"/>
+    <File Name="crawler_include.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="AsyncProcess">
+    <File Name="asyncprocess.cpp"/>
+    <File Name="asyncprocess.h"/>
+    <File Name="processreaderthread.cpp"/>
+    <File Name="processreaderthread.h"/>
+    <File Name="unixprocess_impl.cpp"/>
+    <File Name="unixprocess_impl.h"/>
+    <File Name="winprocess_impl.cpp"/>
+    <File Name="winprocess_impl.h"/>
+    <File Name="ZombieReaperPOSIX.cpp"/>
+    <File Name="ZombieReaperPOSIX.h"/>
+    <File Name="TerminalEmulator.h"/>
+    <File Name="TerminalEmulator.cpp"/>
+    <File Name="TerminalEmulatorUIBase.cpp"/>
+    <File Name="TerminalEmulatorUIBase.h"/>
+    <File Name="TerminalEmulatorUI.h"/>
+    <File Name="TerminalEmulatorUI.cpp"/>
+    <File Name="TerminalEmulatorFrame.h"/>
+    <File Name="TerminalEmulatorFrame.cpp"/>
+    <File Name="clCommandProcessor.cpp"/>
+    <File Name="clCommandProcessor.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="include_finder">
+    <File Name="include_finder.h"/>
+    <File Name="include_finder.cpp"/>
+  </VirtualDirectory>
+  <Dependencies Name="DebugUnicode"/>
+  <Dependencies Name="ReleaseUnicode"/>
+  <Dependencies Name="WinDebug_29"/>
+  <VirtualDirectory Name="PreProcessing">
+    <File Name="pp.cpp"/>
+    <File Name="pp.l"/>
+    <File Name="pp.y"/>
+    <File Name="pp_include.h"/>
+    <File Name="pp_lexer.cpp"/>
+    <File Name="pp_lexer.h"/>
+    <File Name="pptable.cpp"/>
+    <File Name="pptable.h"/>
+    <VirtualDirectory Name="CxxPreProcessor">
+      <File Name="CxxLexer.cpp"/>
+      <File Name="CxxLexerAPI.h"/>
+      <File Name="CxxPreProcessor.cpp"/>
+      <File Name="CxxPreProcessor.h"/>
+      <File Name="CxxPreProcessorExpression.cpp"/>
+      <File Name="CxxPreProcessorExpression.h"/>
+      <File Name="CxxPreProcessorScanner.cpp"/>
+      <File Name="CxxPreProcessorScanner.h"/>
+      <File Name="CxxScanner.l"/>
+      <File Name="CxxScannerTokens.h"/>
+      <File Name="CxxPreProcessorCache.h"/>
+      <File Name="CxxPreProcessorCache.cpp"/>
+      <File Name="CxxUsingNamespaceCollector.h"/>
+      <File Name="CxxUsingNamespaceCollector.cpp"/>
+      <File Name="CIncludeStatementCollector.cpp"/>
+      <File Name="CIncludeStatementCollector.h"/>
+      <File Name="CxxScannerBase.h"/>
+      <File Name="CxxScannerBase.cpp"/>
+      <File Name="CxxTemplateFunction.h"/>
+      <File Name="CxxTemplateFunction.cpp"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="RefactorEngine">
+    <File Name="refactorengine.h"/>
+    <File Name="refactorengine.cpp"/>
+    <File Name="stringaccessor.h"/>
+    <File Name="cpptoken.cpp"/>
+    <File Name="cpptoken.h"/>
+    <File Name="cppwordscanner.cpp"/>
+    <File Name="cppwordscanner.h"/>
+    <File Name="stringaccessor.cpp"/>
+    <File Name="clprogressdlgbase.cpp"/>
+    <File Name="clprogressdlgbase.fbp"/>
+    <File Name="clprogressdlgbase.h"/>
+    <File Name="refactoring_storage.h"/>
+    <File Name="refactoring_storage.cpp"/>
+  </VirtualDirectory>
+  <Dependencies Name="WinRelease_29"/>
+  <VirtualDirectory Name="configuration">
+    <File Name="json_node.cpp"/>
+    <File Name="json_node.h"/>
+    <File Name="cJSON.cpp"/>
+    <File Name="cJSON.h"/>
+    <File Name="cl_config.cpp"/>
+    <File Name="cl_config.h"/>
+    <File Name="cl_standard_paths.h"/>
+    <File Name="cl_standard_paths.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="ssh">
+    <File Name="cl_sftp.cpp"/>
+    <File Name="cl_sftp.h"/>
+    <File Name="cl_ssh.cpp"/>
+    <File Name="cl_ssh.h"/>
+    <File Name="cl_sftp_attribute.h"/>
+    <File Name="cl_sftp_attribute.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="SocketAPI">
+    <File Name="SocketAPI/clSocketBase.cpp"/>
+    <File Name="SocketAPI/clSocketBase.h"/>
+    <File Name="SocketAPI/clSocketClient.cpp"/>
+    <File Name="SocketAPI/clSocketClient.h"/>
+    <File Name="SocketAPI/clSocketServer.cpp"/>
+    <File Name="SocketAPI/clSocketServer.h"/>
+  </VirtualDirectory>
+  <Dependencies Name="WinDebugUnicode"/>
+  <Dependencies Name="WinReleaseUnicode"/>
+  <Dependencies Name="Win_wxWidgets_29"/>
+  <VirtualDirectory Name="PhpScanner">
+    <File Name="PhpLexer.cpp"/>
+    <File Name="PhpLexer.l"/>
+    <File Name="PhpLexerAPI.h"/>
+    <File Name="PHPScannerTokens.h"/>
+    <File Name="PHPEntityBase.cpp"/>
+    <File Name="PHPEntityBase.h"/>
+    <File Name="PHPEntityClass.cpp"/>
+    <File Name="PHPEntityClass.h"/>
+    <File Name="PHPEntityFunction.cpp"/>
+    <File Name="PHPEntityFunction.h"/>
+    <File Name="PHPEntityNamespace.cpp"/>
+    <File Name="PHPEntityNamespace.h"/>
+    <File Name="PHPEntityVariable.cpp"/>
+    <File Name="PHPEntityVariable.h"/>
+    <File Name="PHPExpression.cpp"/>
+    <File Name="PHPExpression.h"/>
+    <File Name="PHPLookupTable.cpp"/>
+    <File Name="PHPLookupTable.h"/>
+    <File Name="PHPSourceFile.cpp"/>
+    <File Name="PHPSourceFile.h"/>
+    <File Name="PHPEntityVisitor.h"/>
+    <File Name="PHPEntityVisitor.cpp"/>
+    <File Name="PHPDocVisitor.h"/>
+    <File Name="PHPDocVisitor.cpp"/>
+    <File Name="PHPDocComment.cpp"/>
+    <File Name="PHPDocComment.h"/>
+    <File Name="PHPIndex.h"/>
+    <File Name="PHPIndex.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="wxcrafter">
+    <File Name="TerminalEmulatorUI.wxcp"/>
+    <VirtualDirectory Name="resources">
+      <File Name="TerminalEmulatorUI_codelite_bitmaps.cpp"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings Type="Dynamic Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+        <Preprocessor Value="WXMAKINGDLL_CL"/>
+        <Preprocessor Value="WXUSINGDLLL_WXSQLITE3"/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="WinDebugUnicode" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="$(shell wx-config --cxxflags --debug=yes --unicode=yes);-g;-Wall" C_Options="-g;-Wall" Assembler="" Required="yes" PreCompiledHeader="../PCH/precompiled_header_dbg.h" PCHInCommandLine="yes" PCHFlags="$(shell wx-config --cxxflags --debug=yes --unicode=yes) -g" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="./include"/>
+        <IncludePath Value="../sdk/wxsqlite3/include"/>
+        <IncludePath Value="../sdk/codelite_indexer/network"/>
+        <IncludePath Value="../PCH"/>
+        <IncludePath Value="../sdk/libssh/include"/>
+        <Preprocessor Value="USE_SFTP=1"/>
+      </Compiler>
+      <Linker Options="$(shell wx-config --libs std,stc --debug=yes --unicode=yes);" Required="yes">
+        <LibraryPath Value="../lib/gcc_lib"/>
+        <LibraryPath Value="../sdk/libssh/lib"/>
+        <Library Value="libwxsqlite3ud.dll"/>
+        <Library Value="libsshd"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../lib/gcc_lib/libcodeliteud.dll" IntermediateDirectory="./WinDebugUnicode" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">copy ..\lib\gcc_lib\libcodeliteud.dll ..\Runtime</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild>CxxLexer.cpp PhpLexer.cpp
+CxxLexer.cpp: CxxScanner.l
+	flex --noline --batch --outfile=CxxLexer.cpp CxxScanner.l
+PhpLexer.cpp: PhpLexer.l
+	flex -Pphp --noline --batch --outfile=PhpLexer.cpp PhpLexer.l</CustomPreBuild>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="WinReleaseUnicode" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="$(shell wx-config --cxxflags --debug=no --unicode=yes);-Wall;-O2;-Winvalid-pch" C_Options="-Wall;-O2" Assembler="" Required="yes" PreCompiledHeader="../PCH/precompiled_header_release.h" PCHInCommandLine="yes" PCHFlags="$(shell wx-config --cxxflags --unicode=yes --debug=no) -O2" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="./include"/>
+        <IncludePath Value="../sdk/wxsqlite3/include"/>
+        <IncludePath Value="../sdk/codelite_indexer/network"/>
+        <IncludePath Value="../PCH"/>
+        <IncludePath Value="../sdk/libssh/include"/>
+        <Preprocessor Value="USE_SFTP=1"/>
+      </Compiler>
+      <Linker Options="-s;$(shell wx-config --libs std,stc --debug=no --unicode=yes)" Required="yes">
+        <LibraryPath Value="../lib/gcc_lib"/>
+        <LibraryPath Value="../sdk/libssh/lib"/>
+        <Library Value="libwxsqlite3u.dll"/>
+        <Library Value="libssh"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../lib/gcc_lib/libcodeliteu.dll" IntermediateDirectory="./WinReleaseUnicode" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">copy ..\lib\gcc_lib\libcodeliteu.dll ..\Runtime</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild>CxxLexer.cpp PhpLexer.cpp
+CxxLexer.cpp: CxxScanner.l
+	flex --noline --batch --outfile=CxxLexer.cpp CxxScanner.l
+PhpLexer.cpp: PhpLexer.l
+	flex -Pphp --noline --batch --outfile=PhpLexer.cpp PhpLexer.l</CustomPreBuild>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Win_wxWidgets_29" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="$(shell wx-config --cxxflags --debug=yes --unicode=yes);-g;-Wall" C_Options="$(shell wx-config --cxxflags --debug=yes --unicode=yes);-g;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="./include"/>
+        <IncludePath Value="../sdk/wxsqlite3/include"/>
+        <IncludePath Value="../sdk/codelite_indexer/network"/>
+      </Compiler>
+      <Linker Options="$(shell wx-config --libs --debug=yes --unicode=yes);" Required="yes">
+        <LibraryPath Value="../lib/gcc_lib"/>
+        <Library Value="libwxsqlite3ud.dll"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../lib/gcc_lib/libcodeliteud.dll" IntermediateDirectory="./WinDbg_29" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">copy ..\lib\gcc_lib\libcodeliteud.dll ..\Runtime</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Win_x64_Release" CompilerType="MinGW ( tdm64-1, 4.9.2 )" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-std=c++11;-Wall;$(shell wx-config --cxxflags --debug=no --unicode=yes);-Winvalid-pch" C_Options="-Wall;-O2" Assembler="" Required="yes" PreCompiledHeader="../PCH/precompiled_header_release.h" PCHInCommandLine="yes" PCHFlags="$(shell wx-config --cxxflags --unicode=yes --debug=no) -O2" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <IncludePath Value="./include"/>
+        <IncludePath Value="../sdk/wxsqlite3/include"/>
+        <IncludePath Value="../sdk/codelite_indexer/network"/>
+        <IncludePath Value="../PCH"/>
+        <IncludePath Value="../sdk/libssh/include"/>
+        <Preprocessor Value="USE_SFTP=1"/>
+      </Compiler>
+      <Linker Options="-s;$(shell wx-config --libs std,stc --debug=no --unicode=yes)" Required="yes">
+        <LibraryPath Value="../lib/gcc_lib"/>
+        <LibraryPath Value="../sdk/libssh/lib"/>
+        <Library Value="libwxsqlite3u.dll"/>
+        <Library Value="libssh64"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/libcodeliteu.dll" IntermediateDirectory="$(ConfigurationName)" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild>
+        <Command Enabled="yes">copy "$(IntermediateDirectory)\libcodeliteu.dll" ..\Runtime</Command>
+        <Command Enabled="yes">copy "$(IntermediateDirectory)\libcodeliteu.dll" ..\lib\gcc_lib</Command>
+      </PostBuild>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild>CxxLexer.cpp PhpLexer.cpp
+CxxLexer.cpp: CxxScanner.l
+	flex --noline --batch --outfile=CxxLexer.cpp CxxScanner.l
+PhpLexer.cpp: PhpLexer.l
+	flex -Pphp --noline --batch --outfile=PhpLexer.cpp PhpLexer.l
+</CustomPreBuild>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>
